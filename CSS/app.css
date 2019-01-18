@@ -1,0 +1,112 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+header,
+footer {
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+}
+
+.headerStyle {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100%;
+}
+
+.logoText {
+    float: left;
+    font-size: 40px;
+}
+
+.logoTextDiv {
+    padding: 30px;
+}
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
+.content-filler {
+    min-height: 500px;
+    padding: 20px;
+}
+
+.fixed-attachement {
+    background-attachment: fixed;
+}
+
+.navbar {
+    border-radius: 0px;
+    border-style: solid;
+    border-color: gainsboro;
+    background-color: floralwhite;
+}
+
+.row h1 {
+    text-align: center;
+}
+
+.aboute div:first-of-type {
+    height: 350px;
+    opacity: 0.9;
+}
+
+.about div:first-of-type:hover {
+    opacity: 0.4;
+}
+
+
+/*
+.service {
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+    clear: right;
+}*/
+
+.service div:first-of-type {
+    height: 350px;
+    opacity: 0.9;
+}
+
+.service div:first-of-type:hover {
+    opacity: 0.4;
+}
+
+.imgText {
+    background-color: whitesmoke;
+    max-height: 350px;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right!important;
+    }
+}
+
+@media (max-width:1024px) {
+    .fixed-attachement {
+        background-attachment: scroll;
+    }
+}
+
+.relatedLink {
+    background-color: #383838;
+    height: 400px;
+}
